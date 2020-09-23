@@ -1,4 +1,4 @@
-package com.rabbit.demo.application.service.controladores;
+package com.rabbit.demo.application.controladores;
 
 
 import java.util.List;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.rabbit.demo.application.service.interfaces.messages.MessageI;
+import com.rabbit.demo.application.interfaces.messages.MessageI;
 import com.rabbit.demo.domain.modelo.Message;
 import com.rabbit.demo.domain.service.MessageService;
 

@@ -1,4 +1,4 @@
-package com.rabbit.demo.application.service.interfaces.messages;
+package com.rabbit.demo.application.interfaces.messages;
 
 public interface MessageI {
 	public void sendMessage(String message);
